@@ -19,7 +19,7 @@ const Hero = (props) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Button>Contact</Button>
+        <Button>Get in touch</Button>
       </a>
     </LeftSection>
   </Section>

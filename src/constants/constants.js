@@ -1,46 +1,42 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "Scheduler",
+    description:
+      "An application to assist in scheduling timetables for our university that will effectively reduce the time, cost, effort and human errors involved in manual scheduling",
+    image: "/images/Scheduler.gif",
+    tags: ["Microsoft ASP.Net", "Entity Framework", "MSSQL"],
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "MedEase",
+    description:
+      "A platform that helps reduce the spread of Covid-19 by providing testing facility to patients at the comfort of their homes. The platform helps connect patients with relevant paramedic staff and hospitals hence reducing the load on hospitals for testing.",
+    image: "/images/MedEase.gif",
+    tags: ["React", "React Native", "Node.js", "Express", "MongoDB"],
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "Share A Meal",
+    description:
+      "A website built to reduce the wastage of left-over food by connecting places where there is leftover food with the places which accommodate the less privileged.",
+    image: "/images/ShareAMeal.gif",
+    tags: ["Microsoft ASP.Net", "Entity Framework", "MSSQL"],
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "Le Gavroche",
+    description:
+      "A website for a restaurant which helps connect potential customers with the restaurant. The customer can order food using the website. Payments can be made using Stripe's API which has been integrated within the website that enables the customer to do easy and secure transactions.",
+    image: "/images/LeGavroche.gif",
+    tags: ["Node.js", "Express", "MongoDB", "Stripe"],
     id: 3,
   },
-];
+]
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
-];
+  { year: 2017, text: "Started my journey" },
+  { year: 2018, text: "Worked as a freelance developer" },
+  { year: 2019, text: "Founded JavaScript Mastery" },
+  { year: 2020, text: "Shared my projects with the world" },
+  { year: 2021, text: "Started my own platform" },
+]

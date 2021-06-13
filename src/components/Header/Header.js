@@ -18,7 +18,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <Logo src="/logo.png" /> <Span>Talha Abbasi</Span>
+          <Logo src="images/logo.png" /> <Span>Talha Abbasi</Span>
         </a>
       </Link>
     </Div1>
@@ -44,9 +44,9 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#resume">
+        <a href="/Talha Abbasi Resume.pdf" download>
           <NavLink>Resume</NavLink>
-        </Link>
+        </a>
       </li>
     </Div2>
     <Div3>
