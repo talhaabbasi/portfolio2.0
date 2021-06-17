@@ -24,13 +24,13 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="#experience">
+          <NavLink>Experience</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#experience">
-          <NavLink>Experience</NavLink>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
@@ -39,8 +39,8 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
+        <Link href="#github-stats">
+          <NavLink>GitHub Stats</NavLink>
         </Link>
       </li>
       <li>

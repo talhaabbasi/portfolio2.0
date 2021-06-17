@@ -64,10 +64,10 @@ const Timeline = () => {
   }, [])
 
   return (
-    <Section id="about">
+    <Section id="experience">
       <SectionDivider />
       <br />
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>Experience</SectionTitle>
       <SectionText></SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

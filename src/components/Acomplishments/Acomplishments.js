@@ -76,7 +76,7 @@ const Acomplishments = () => {
   console.log(user)
   console.log(totalContributions)
   return (
-    <Section>
+    <Section id="github-stats">
       <SectionTitle>
         GitHub Stats{" "}
         <a
