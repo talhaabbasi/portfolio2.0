@@ -73,8 +73,6 @@ const Acomplishments = () => {
     process.env.NEXT_PUBLIC_GITHUB_TOKEN,
     process.env.NEXT_PUBLIC_GITHUB_USERNAME,
   ])
-  console.log(user)
-  console.log(totalContributions)
   return (
     <Section id="github-stats">
       <SectionTitle>
@@ -88,7 +86,7 @@ const Acomplishments = () => {
           <AiFillGithub size="4rem" />
         </a>
       </SectionTitle>
-      {user && (
+      {user && totalContributions && (
         <Boxes>
           <Box>
             <BoxNum>
