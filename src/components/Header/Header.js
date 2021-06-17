@@ -51,21 +51,21 @@ const Header = () => (
     </Div2>
     <Div3>
       <SocialIcons
-        href="https://github.com/talhaabbasi"
+        href={`https://github.com/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`}
         target="_blank"
         rel="noopener noreferrer"
       >
         <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons
-        href="https://www.linkedin.com/in/talha-abbasi/"
+        href={`https://www.linkedin.com/in/${process.env.NEXT_PUBLIC_LINKEDIN}/`}
         target="_blank"
         rel="noopener noreferrer"
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons
-        href="https://instagram.com/talhaabbasii"
+        href={`https://instagram.com/${process.env.NEXT_PUBLIC_INSTAGRAM}`}
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -15,7 +15,7 @@ const Hero = (props) => (
         Hello there! <br />I am Talha Abbasi
       </SectionTitle>
       <a
-        href="mailto:talhaabbasi1997@gmail.com"
+        href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}
         target="_blank"
         rel="noopener noreferrer"
       >
