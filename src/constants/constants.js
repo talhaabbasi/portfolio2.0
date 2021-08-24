@@ -36,42 +36,66 @@ export const projects = [
 export const TimeLineData = [
   {
     comapany: "Foretheta",
-    position: "Software Engineer - 1",
-    year: "July 2020 - Present",
-    responsibilities: [
-      "Worked on front-end related feature requests and debugged design issues of our projects made on React JS.",
-      "Maintained blogs for multiple projects powered by Gatsby framework.",
-      "Deployed and maintained applications using AWS Services like AWS Lambda, Amazon DynamoDb, AWS Cognito and Chalice.",
-      "Created various API routes and consumed them in our React components.",
-      "Wrote Cron Jobs and used GitHub Actions to automate our workflows.",
-      "Wrote multiple test cases for our application's frontend and backend. Increased the backend coverage for our Credit Card API to 89%",
+    roles: [
+      {
+        position: "Software Engineer - II",
+        year: "July 2021 - Present",
+        responsibilities: [
+          "Develop a web-application from scratch to analyse stocks for the US stock market.",
+          "Review Pull Requests of fellow engineers and update production accordingly.",
+          "Create a separate stack for our testing environment.",
+        ],
+      },
+      {
+        position: "Software Engineer - I",
+        year: "July 2020 - July 2021",
+        responsibilities: [
+          "Worked on front-end related feature requests and debugged design issues of our projects made on React JS.",
+          "Maintained blogs for multiple projects powered by Gatsby framework.",
+          "Created various API routes and consumed them in our React components.",
+          "Wrote Cron Jobs and used GitHub Actions to automate our workflows.",
+          "Wrote multiple test cases for our application's frontend and backend. Increased the backend coverage for our Credit Card API to 89%",
+        ],
+      },
     ],
   },
   {
     comapany: "Raawee K12 Solutions Inc.",
-    position: "Intern",
-    year: "Jan 2020 – March 2020",
-    responsibilities: [
-      "Generated ReactJS Components including a Data Grid which helped visualize a large amount of data. The Data Grid was tested on a data set of 5000 rows and brought down the load-time significantly which was taken by the previously built Table.",
-      "Studied the working of ASP.Net Core applications.",
+    roles: [
+      {
+        position: "Intern",
+        year: "Jan 2020 – March 2020",
+        responsibilities: [
+          "Generated ReactJS Components including a Data Grid which helped visualize a large amount of data. The Data Grid was tested on a data set of 5000 rows and brought down the load-time significantly which was taken by the previously built Table.",
+          "Studied the working of ASP.Net Core applications.",
+        ],
+      },
     ],
   },
   {
     comapany: "Systems Limited",
-    position: "Intern",
-    year: "June 2019 – July 2019",
-    responsibilities: [
-      "Worked on PHP and the Laravel Framework as well as the use of Design Patterns in Enterprise software.",
-      "Implement Cart, Blog and multiple functionalities.",
+    roles: [
+      {
+        position: "Intern",
+        year: "June 2019 – July 2019",
+        responsibilities: [
+          "Worked on PHP and the Laravel Framework as well as the use of Design Patterns in Enterprise software.",
+          "Implement Cart, Blog and multiple functionalities.",
+        ],
+      },
     ],
   },
   {
     comapany: "Raawee K12 Solutions Inc.",
-    position: "Intern",
-    year: "June 2018 – Aug 2018",
-    responsibilities: [
-      "Learned the working of MVC architecture.",
-      "Implemented a School Management System under the supervision of a Senior Developer.",
+    roles: [
+      {
+        position: "Intern",
+        year: "June 2018 – Aug 2018",
+        responsibilities: [
+          "Learned the working of MVC architecture.",
+          "Implemented a School Management System under the supervision of a Senior Developer.",
+        ],
+      },
     ],
   },
 ]

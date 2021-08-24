@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react"
-
 import {
   CarouselButton,
   CarouselButtonDot,
@@ -117,17 +116,19 @@ const Timeline = () => {
                     </defs>
                   </CarouselItemImg>
                 </CarouselItemTitle>
-                <CarouselItemText>
-                  <CarouselItemPosition>{item.position}</CarouselItemPosition>
-                  <CarouselItemYear>{item.year}</CarouselItemYear>
-                  <ul>
-                    {item.responsibilities.map((responsibility, index) => (
-                      <li style={{ listStyleType: "circle" }} key={index}>
-                        {responsibility}
-                      </li>
-                    ))}
-                  </ul>
-                </CarouselItemText>
+                {item.roles.map((role, index) => (
+                  <CarouselItemText key={index}>
+                    <CarouselItemPosition>{role.position}</CarouselItemPosition>
+                    <CarouselItemYear>{role.year}</CarouselItemYear>
+                    <ul>
+                      {role.responsibilities.map((responsibility, index) => (
+                        <li style={{ listStyleType: "circle" }} key={index}>
+                          {responsibility}
+                        </li>
+                      ))}
+                    </ul>
+                  </CarouselItemText>
+                ))}
               </CarouselItem>
             </CarouselMobileScrollNode>
           ))}
