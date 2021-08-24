@@ -31,8 +31,8 @@ export const Div2 = styled.div`
   padding-top: 10px;
   display: flex;
   justify-content: space-around;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: none;
   }
 `
 export const Div3 = styled.div`
