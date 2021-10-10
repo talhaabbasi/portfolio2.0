@@ -22,7 +22,7 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the web development world.
-      From Front-end to Back-end delivering complete issues.
+      From Front-end to Back-end delivering complete features.
     </SectionText>
     <List>
       <ListItem>

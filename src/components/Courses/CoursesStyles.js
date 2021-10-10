@@ -25,7 +25,6 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212d45;
   border-radius: 12px;
-  height: 170px;
   padding: 24px;
   @media ${(props) => props.theme.breakpoints.lg} {
     height: auto;
@@ -81,6 +80,29 @@ export const BoxText = styled.p`
     font-size: 10px;
     line-height: 14px;
   }
+`
+export const BoxAction = styled.p`
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: white;
+  float: right;
+  margin-top: 10px;
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 10px;
+    line-height: 14px;
+  }
+`
+export const BoxIcons = styled.a`
+  color: white;
+  padding-right: 15px;
 `
 
 export const Join = styled.div`
