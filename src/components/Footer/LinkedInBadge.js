@@ -18,7 +18,7 @@ export default function App() {
   return (
     <div>
       <div
-        class="badge-base LI-profile-badge"
+        className="badge-base LI-profile-badge"
         data-locale="en_US"
         data-size="medium"
         data-theme="dark"

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import CountUp from "react-countup"
 import { Section, SectionTitle } from "../../styles/GlobalComponents"
-import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles"
+import { Box, Boxes, BoxNum, BoxText } from "./AccomplishmentsStyles"
 import { AiFillGithub } from "react-icons/ai"
 
 async function getContributions(token, username) {
@@ -46,7 +46,7 @@ var options = {
   day: "numeric",
 }
 
-const Acomplishments = () => {
+const Accomplishments = () => {
   const [user, setUser] = useState(null),
     [totalContributions, setTotalContributions] = useState(null),
     [startingDate, setStartingDate] = useState(null)
@@ -113,4 +113,4 @@ const Acomplishments = () => {
   )
 }
 
-export default Acomplishments
+export default Accomplishments
