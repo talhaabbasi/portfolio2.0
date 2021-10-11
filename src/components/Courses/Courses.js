@@ -13,7 +13,7 @@ import { GrCertificate } from "react-icons/gr"
 
 const Courses = () => {
   return (
-    <Section id="github-stats">
+    <Section id="courses">
       <SectionTitle>Courses</SectionTitle>
       <Boxes>
         <Box>

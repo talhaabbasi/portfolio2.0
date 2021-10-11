@@ -39,6 +39,11 @@ const Header = () => (
         </Link>
       </li>
       <li>
+        <Link href="#courses">
+          <NavLink>Courses</NavLink>
+        </Link>
+      </li>
+      <li>
         <Link href="#github-stats">
           <NavLink>GitHub Stats</NavLink>
         </Link>

@@ -27,7 +27,7 @@ export default function App() {
         data-version="v1"
       >
         <a
-          class="badge-base__link LI-simple-link"
+          className="badge-base__link LI-simple-link"
           href="https://pk.linkedin.com/in/talha-abbasi?trk=profile-badge"
         />
       </div>
