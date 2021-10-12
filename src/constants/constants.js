@@ -1,3 +1,14 @@
+export const courses = [
+  {
+    title: "Blockchain A-Z™: Learn How To Build Your First Blockchain",
+    description:
+      "An intuitive course starting from the basic building blocks of a Blockchain to more advanced topics. Course content consists of Blockchain Intuition, Cryptocurrency Intuition, Smart Contracts and Alt Coins. Also has a couple of code-along tutorials where students are taught to build a Blockchain from scratch, build a Cryptocurrency and also, write Smart Contracts.",
+    GH_LINK: process.env.NEXT_PUBLIC_GH_COURSE_BLOCKCHAIN,
+    CERT_LINK: process.env.NEXT_PUBLIC_UDEMY_CERTIFICATE_BLOCKCHAIN,
+    id: 0,
+  },
+]
+
 export const projects = [
   {
     title: "Scheduler",
