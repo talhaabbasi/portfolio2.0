@@ -4,6 +4,7 @@ import {
   Box,
   Boxes,
   BoxNum,
+  BoxHead,
   BoxText,
   BoxAction,
   BoxIcons,
@@ -17,28 +18,35 @@ const Courses = () => {
     <Section id="courses">
       <SectionTitle>Courses</SectionTitle>
       <Boxes>
-        {courses.map(({ id, title, description, GH_LINK, CERT_LINK }) => (
-          <Box key={id}>
-            <BoxNum>{title}</BoxNum>
-            <BoxText>{description}</BoxText>
-            <BoxAction>
-              <BoxIcons
-                target="_blank"
-                href={GH_LINK}
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub size="4rem" />
-              </BoxIcons>
-              <BoxIcons
-                target="_blank"
-                href={CERT_LINK}
-                rel="noopener noreferrer"
-              >
-                <GrCertificate size="4rem" />
-              </BoxIcons>
-            </BoxAction>
-          </Box>
-        ))}
+        {courses.map(
+          ({ id, title, issued_by, description, GH_LINK, CERT_LINK }) => (
+            <Box key={id}>
+              <BoxHead>{issued_by}</BoxHead>
+              <BoxNum>{title}</BoxNum>
+              <BoxText>{description}</BoxText>
+              <BoxAction>
+                {GH_LINK && (
+                  <BoxIcons
+                    target="_blank"
+                    href={GH_LINK}
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub size="4rem" />
+                  </BoxIcons>
+                )}
+                {CERT_LINK && (
+                  <BoxIcons
+                    target="_blank"
+                    href={CERT_LINK}
+                    rel="noopener noreferrer"
+                  >
+                    <GrCertificate size="4rem" />
+                  </BoxIcons>
+                )}
+              </BoxAction>
+            </Box>
+          )
+        )}
       </Boxes>
     </Section>
   )

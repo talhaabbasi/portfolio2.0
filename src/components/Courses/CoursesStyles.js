@@ -44,6 +44,26 @@ export const Box = styled.div`
     }
   }
 `
+
+export const BoxHead = styled.h5`
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-bottom: 8px;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 15px;
+    line-height: 32px;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 10px;
+    line-height: 26px;
+  }
+`
+
 export const BoxNum = styled.h5`
   font-style: normal;
   font-weight: 600;

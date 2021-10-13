@@ -40,6 +40,19 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
+          <meta
+            name="description"
+            content="Portfolio Website for Talha Abbasi"
+          />
+          <meta name="title" property="og:title" content="Portfolio" />
+          <meta property="og:type" content="Website" />
+          <meta name="image" property="og:image" content="images/logo.png" />
+          <meta
+            name="description"
+            property="og:description"
+            content="Portfolio Website for Talha Abbasi"
+          />
+          <meta name="author" content="Talha Abbasi" />
         </Head>
         <body>
           <Main />

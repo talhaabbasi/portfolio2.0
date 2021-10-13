@@ -1,11 +1,36 @@
 export const courses = [
   {
+    issued_by: "Udemy",
     title: "Blockchain A-Z™: Learn How To Build Your First Blockchain",
     description:
       "An intuitive course starting from the basic building blocks of a Blockchain to more advanced topics. Course content consists of Blockchain Intuition, Cryptocurrency Intuition, Smart Contracts and Alt Coins. Also has a couple of code-along tutorials where students are taught to build a Blockchain from scratch, build a Cryptocurrency and also, write Smart Contracts.",
     GH_LINK: process.env.NEXT_PUBLIC_GH_COURSE_BLOCKCHAIN,
     CERT_LINK: process.env.NEXT_PUBLIC_UDEMY_CERTIFICATE_BLOCKCHAIN,
     id: 0,
+  },
+  {
+    issued_by: "Coursera",
+    title: "Blockchain Basics",
+    description:
+      "Basics of the Blockchain Network. Learned about the decentralized peer-to-peer network, an immutable distributed ledger and the trust model that defines a blockchain",
+    CERT_LINK: process.env.NEXT_PUBLIC_COURSERA_CERTIFICATE_BLOCKCHAIN,
+    id: 1,
+  },
+  {
+    issued_by: "Coursera",
+    title: "AI For Everyone",
+    description:
+      "Introduction to common AI-terminology including neural networks, machine learning, deep learning, and data science.",
+    CERT_LINK: process.env.NEXT_PUBLIC_COURSERA_CERTIFICATE_AI,
+    id: 2,
+  },
+  {
+    issued_by: "Coursera",
+    title: "Introduction to Git and GitHub",
+    description:
+      "Introduction to the common Version Control System with it's basic as well advanced features.",
+    CERT_LINK: process.env.NEXT_PUBLIC_COURSERA_CERTIFICATE_GIT,
+    id: 3,
   },
 ]
 
