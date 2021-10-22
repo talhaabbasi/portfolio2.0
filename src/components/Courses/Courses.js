@@ -9,8 +9,7 @@ import {
   BoxAction,
   BoxIcons,
 } from "./CoursesStyles"
-import { AiFillGithub } from "react-icons/ai"
-import { GrCertificate } from "react-icons/gr"
+import { AiFillGithub, AiFillSafetyCertificate } from "react-icons/ai"
 import { courses } from "../../constants/constants"
 
 const Courses = () => {
@@ -40,7 +39,7 @@ const Courses = () => {
                     href={CERT_LINK}
                     rel="noopener noreferrer"
                   >
-                    <GrCertificate size="4rem" />
+                    <AiFillSafetyCertificate size="4rem" />
                   </BoxIcons>
                 )}
               </BoxAction>
