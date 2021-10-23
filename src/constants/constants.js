@@ -71,7 +71,7 @@ export const projects = [
 
 export const TimeLineData = [
   {
-    comapany: "Foretheta",
+    company: "Foretheta",
     roles: [
       {
         position: "Software Engineer - II",
@@ -96,7 +96,7 @@ export const TimeLineData = [
     ],
   },
   {
-    comapany: "Raawee K12 Solutions Inc.",
+    company: "Raawee K12 Solutions Inc.",
     roles: [
       {
         position: "Intern",
@@ -109,7 +109,7 @@ export const TimeLineData = [
     ],
   },
   {
-    comapany: "Systems Limited",
+    company: "Systems Limited",
     roles: [
       {
         position: "Intern",
@@ -122,7 +122,7 @@ export const TimeLineData = [
     ],
   },
   {
-    comapany: "Raawee K12 Solutions Inc.",
+    company: "Raawee K12 Solutions Inc.",
     roles: [
       {
         position: "Intern",
