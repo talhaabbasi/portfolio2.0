@@ -75,7 +75,7 @@ export const TimeLineData = [
     roles: [
       {
         position: "Software Engineer - II",
-        year: "July 2021 - Present",
+        year: "July 2021 - December 2021",
         responsibilities: [
           "Develop a web-application from scratch to analyse stocks for the US stock market.",
           "Review Pull Requests of fellow engineers and update production accordingly.",
