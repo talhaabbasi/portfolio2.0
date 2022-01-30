@@ -71,6 +71,29 @@ export const projects = [
 
 export const TimeLineData = [
   {
+    company: "Maqsad",
+    roles: [
+      {
+        position: "Full Stack Engineer",
+        year: "January 2022 - Present",
+        responsibilities: [],
+      },
+    ],
+  },
+  {
+    company: "Raawee K12 Solutions Inc.",
+    roles: [
+      {
+        position: "Intern",
+        year: "Jan 2020 – March 2020",
+        responsibilities: [
+          "Generated ReactJS Components including a Data Grid which helped visualize a large amount of data. The Data Grid was tested on a data set of 5000 rows and brought down the load-time significantly which was taken by the previously built Table.",
+          "Studied the working of ASP.Net Core applications.",
+        ],
+      },
+    ],
+  },
+  {
     company: "Foretheta",
     roles: [
       {
