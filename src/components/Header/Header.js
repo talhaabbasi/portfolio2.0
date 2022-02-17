@@ -16,14 +16,6 @@ import {
 import * as gtag from "../../../lib/gtag"
 
 const Header = () => {
-  const downloadResume = () => {
-    gtag.event({
-      action: "click_download_resume",
-      category: "portfolio",
-      label: "Resume Downloaded",
-      value: "Resume",
-    })
-  }
   return (
     <Container>
       <Div1>
@@ -58,15 +50,6 @@ const Header = () => {
           <Link href="#github-stats">
             <NavLink>GitHub Stats</NavLink>
           </Link>
-        </li>
-        <li>
-          <a
-            href="/Talha Abbasi's Resume.pdf"
-            download
-            onClick={() => downloadResume()}
-          >
-            <NavLink>Resume</NavLink>
-          </a>
         </li>
       </Div2>
       <Div3>
