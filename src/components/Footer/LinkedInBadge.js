@@ -23,12 +23,12 @@ export default function App() {
         data-size="medium"
         data-theme="dark"
         data-type="VERTICAL"
-        data-vanity="talha-abbasi"
+        data-vanity={process.env.NEXT_PUBLIC_LINKEDIN}
         data-version="v1"
       >
         <a
           className="badge-base__link LI-simple-link"
-          href="https://pk.linkedin.com/in/talha-abbasi?trk=profile-badge"
+          href={`https://pk.linkedin.com/in/${process.env.NEXT_PUBLIC_LINKEDIN}?trk=profile-badge`}
         />
       </div>
     </div>

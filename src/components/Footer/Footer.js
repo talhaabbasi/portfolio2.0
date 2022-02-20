@@ -18,8 +18,12 @@ const Footer = () => {
             {process.env.NEXT_PUBLIC_EMAIL}
           </LinkItem>
         </LinkColumn>
+        <LinkColumn>
+          <LinkItem>
+            <LinkedInBadge />
+          </LinkItem>
+        </LinkColumn>
       </LinkList>
-      <LinkedInBadge />
     </FooterWrapper>
   )
 }
