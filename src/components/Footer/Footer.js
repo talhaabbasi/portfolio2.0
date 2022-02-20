@@ -13,10 +13,6 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+923413542008">+92-341-3542008</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
             {process.env.NEXT_PUBLIC_EMAIL}
