@@ -74,7 +74,7 @@ export const TimeLineData = [
     company: "Maqsad",
     roles: [
       {
-        position: "Full Stack Engineer",
+        position: "Software Engineer",
         year: "January 2022 - Present",
         responsibilities: [],
       },
