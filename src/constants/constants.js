@@ -76,7 +76,12 @@ export const TimeLineData = [
       {
         position: "Software Engineer",
         year: "January 2022 - Present",
-        responsibilities: [],
+        responsibilities: [
+          "Built an internal tool from scratch which improved the productivity and response time of our team by up-to 30%",
+          "Refactored and migrated multiple services from JavaScript to TypeScript.",
+          "Setup an IaC (Infrastructure as Code) template with AWS CDK which was used through out all the back-end services.",
+          "Worked on Frontend tasks involving NextJS along with writing Unit and End-to-end test cases for it.",
+        ],
       },
     ],
   },
