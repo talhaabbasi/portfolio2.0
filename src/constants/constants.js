@@ -75,7 +75,7 @@ export const TimeLineData = [
     roles: [
       {
         position: "Software Engineer",
-        year: "January 2022 - Present",
+        startDate: new Date(2022, 0),
         responsibilities: [
           "Built an internal tool from scratch which improved the productivity and response time of our team by up-to 30%",
           "Refactored and migrated multiple services from JavaScript to TypeScript.",
@@ -90,7 +90,8 @@ export const TimeLineData = [
     roles: [
       {
         position: "Software Engineer - II",
-        year: "July 2021 - December 2021",
+        startDate: new Date(2021, 6),
+        endDate: new Date(2021, 11),
         responsibilities: [
           "Develop a web-application from scratch to analyse stocks for the US stock market.",
           "Review Pull Requests of fellow engineers and update production accordingly.",
@@ -99,7 +100,8 @@ export const TimeLineData = [
       },
       {
         position: "Software Engineer - I",
-        year: "July 2020 - July 2021",
+        startDate: new Date(2020, 6),
+        endDate: new Date(2021, 6),
         responsibilities: [
           "Worked on front-end related feature requests and debugged design issues of our projects made on React JS.",
           "Maintained blogs for multiple projects powered by Gatsby framework.",
@@ -115,7 +117,8 @@ export const TimeLineData = [
     roles: [
       {
         position: "Intern",
-        year: "Jan 2020 – March 2020",
+        startDate: new Date(2020, 0),
+        endDate: new Date(2020, 2),
         responsibilities: [
           "Generated ReactJS Components including a Data Grid which helped visualize a large amount of data. The Data Grid was tested on a data set of 5000 rows and brought down the load-time significantly which was taken by the previously built Table.",
           "Studied the working of ASP.Net Core applications.",
@@ -128,7 +131,8 @@ export const TimeLineData = [
     roles: [
       {
         position: "Intern",
-        year: "June 2019 – July 2019",
+        startDate: new Date(2019, 5),
+        endDate: new Date(2019, 6),
         responsibilities: [
           "Worked on PHP and the Laravel Framework as well as the use of Design Patterns in Enterprise software.",
           "Implement Cart, Blog and multiple functionalities.",
@@ -141,7 +145,8 @@ export const TimeLineData = [
     roles: [
       {
         position: "Intern",
-        year: "June 2018 – Aug 2018",
+        startDate: new Date(2018, 5),
+        endDate: new Date(2018, 7),
         responsibilities: [
           "Learned the working of MVC architecture.",
           "Implemented a School Management System under the supervision of a Senior Developer.",
