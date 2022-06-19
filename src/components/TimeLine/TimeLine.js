@@ -19,7 +19,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents"
 import { TimeLineData } from "../../constants/constants"
-import moment from "moment"
+import { dateToString } from "../../utils/convert"
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length
 
@@ -121,10 +121,8 @@ const Timeline = () => {
                   <CarouselItemText key={index}>
                     <CarouselItemPosition>{role.position}</CarouselItemPosition>
                     <CarouselItemYear>
-                      {moment(role?.startDate).format("MMMM Y")} -{" "}
-                      {role?.endDate
-                        ? moment(role?.endDate).format("MMMM Y")
-                        : "Present"}
+                      {dateToString(role?.startDate)} -{" "}
+                      {role?.endDate ? dateToString(role?.endDate) : "Present"}
                     </CarouselItemYear>
                     <ul>
                       {role.responsibilities.map((responsibility, index) => (
