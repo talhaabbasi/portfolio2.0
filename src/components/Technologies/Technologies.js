@@ -31,7 +31,7 @@ const Technologies = () => (
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React along with frameworks like Gatsby and Next.js
+            React along with frameworks like Gatsby and NextJS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,7 +41,7 @@ const Technologies = () => (
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js, Python and ASP.Net
+            Node.js, NestJS, Express, Python and ASP.Net
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -51,17 +51,18 @@ const Technologies = () => (
           <ListTitle>Databases</ListTitle>
           <ListParagraph>
             Experience with <br />
-            MongoDb, DynamoDb and Microsoft SQL Server
+            MySQL, MongoDb, DynamoDb and Microsoft SQL Server
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <BsCloudFill size="3rem" />
         <ListContainer>
-          <ListTitle>Cloud Services</ListTitle>
+          <ListTitle>Cloud Services and DevOps</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Amazon Web Services
+            Amazon Web Services, AWS CDK (Infrastructure as Code framework) and
+            Docker
           </ListParagraph>
         </ListContainer>
       </ListItem>
