@@ -74,12 +74,23 @@ export const TimeLineData = [
     company: "Maqsad",
     roles: [
       {
-        position: "Software Engineer",
-        year: "January 2022 - Present",
+        position: "Senior Software Engineer",
+        startDate: new Date(2022, 10),
         responsibilities: [
-          "Built an internal tool from scratch which improved the productivity and response time of our team by up-to 30%",
+          "Build a highly scalable and fault-tolerant Payments service on NestJS which catered different methods like Google Pay, Apple Pay, and Credit Cards",
+          "Actively participate in System Design discussions and research.",
+          "Ensured tight cooperation with other engineers through active listening, systematic communication, and leadership skills.",
+        ],
+      },
+      {
+        position: "Software Engineer",
+        startDate: new Date(2022, 0),
+        endDate: new Date(2022, 9),
+        responsibilities: [
+          "Built an internal tool from scratch using NestJS, MySQL, and GraphQL which improved the productivity and response time of our team by up to 50%",
+          "Setup an IaC (Infrastructure as Code) template with AWS CDK which was used throughout all the back-end services.",
+          "Create and update multiple models for AWS AppSync which acted as GraphQL client for our AWS DynamoDB",
           "Refactored and migrated multiple services from JavaScript to TypeScript.",
-          "Setup an IaC (Infrastructure as Code) template with AWS CDK which was used through out all the back-end services.",
           "Worked on Frontend tasks involving NextJS along with writing Unit and End-to-end test cases for it.",
         ],
       },
@@ -90,7 +101,8 @@ export const TimeLineData = [
     roles: [
       {
         position: "Software Engineer - II",
-        year: "July 2021 - December 2021",
+        startDate: new Date(2021, 6),
+        endDate: new Date(2021, 11),
         responsibilities: [
           "Develop a web-application from scratch to analyse stocks for the US stock market.",
           "Review Pull Requests of fellow engineers and update production accordingly.",
@@ -99,7 +111,8 @@ export const TimeLineData = [
       },
       {
         position: "Software Engineer - I",
-        year: "July 2020 - July 2021",
+        startDate: new Date(2020, 6),
+        endDate: new Date(2021, 6),
         responsibilities: [
           "Worked on front-end related feature requests and debugged design issues of our projects made on React JS.",
           "Maintained blogs for multiple projects powered by Gatsby framework.",
@@ -115,7 +128,8 @@ export const TimeLineData = [
     roles: [
       {
         position: "Intern",
-        year: "Jan 2020 – March 2020",
+        startDate: new Date(2020, 0),
+        endDate: new Date(2020, 2),
         responsibilities: [
           "Generated ReactJS Components including a Data Grid which helped visualize a large amount of data. The Data Grid was tested on a data set of 5000 rows and brought down the load-time significantly which was taken by the previously built Table.",
           "Studied the working of ASP.Net Core applications.",
@@ -128,7 +142,8 @@ export const TimeLineData = [
     roles: [
       {
         position: "Intern",
-        year: "June 2019 – July 2019",
+        startDate: new Date(2019, 5),
+        endDate: new Date(2019, 6),
         responsibilities: [
           "Worked on PHP and the Laravel Framework as well as the use of Design Patterns in Enterprise software.",
           "Implement Cart, Blog and multiple functionalities.",
@@ -141,7 +156,8 @@ export const TimeLineData = [
     roles: [
       {
         position: "Intern",
-        year: "June 2018 – Aug 2018",
+        startDate: new Date(2018, 5),
+        endDate: new Date(2018, 7),
         responsibilities: [
           "Learned the working of MVC architecture.",
           "Implemented a School Management System under the supervision of a Senior Developer.",
