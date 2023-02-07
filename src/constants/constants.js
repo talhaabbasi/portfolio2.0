@@ -74,12 +74,23 @@ export const TimeLineData = [
     company: "Maqsad",
     roles: [
       {
+        position: "Senior Software Engineer",
+        startDate: new Date(2022, 10),
+        responsibilities: [
+          "Build a highly scalable and fault-tolerant Payments service on NestJS which catered different methods like Google Pay, Apple Pay, and Credit Cards",
+          "Actively participate in System Design discussions and research.",
+          "Ensured tight cooperation with other engineers through active listening, systematic communication, and leadership skills.",
+        ],
+      },
+      {
         position: "Software Engineer",
         startDate: new Date(2022, 0),
+        endDate: new Date(2022, 9),
         responsibilities: [
-          "Built an internal tool from scratch which improved the productivity and response time of our team by up-to 30%",
+          "Built an internal tool from scratch using NestJS, MySQL, and GraphQL which improved the productivity and response time of our team by up to 50%",
+          "Setup an IaC (Infrastructure as Code) template with AWS CDK which was used throughout all the back-end services.",
+          "Create and update multiple models for AWS AppSync which acted as GraphQL client for our AWS DynamoDB",
           "Refactored and migrated multiple services from JavaScript to TypeScript.",
-          "Setup an IaC (Infrastructure as Code) template with AWS CDK which was used through out all the back-end services.",
           "Worked on Frontend tasks involving NextJS along with writing Unit and End-to-end test cases for it.",
         ],
       },
