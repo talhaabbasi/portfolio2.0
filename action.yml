@@ -5,3 +5,9 @@ inputs:
     description: 'The person to greet'
     required: true
     default: 'Monolisa Octocat'
+runs:
+  using: node16
+  main: dist/index.js
+branding:
+  icon: 'crosshair'
+  color: 'green'
