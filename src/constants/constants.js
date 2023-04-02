@@ -75,11 +75,10 @@ export const TimeLineData = [
     roles: [
       {
         position: "Senior Software Engineer",
-        startDate: new Date(2022, 10),
+        startDate: new Date(2022, 9),
         responsibilities: [
-          "Build a highly scalable and fault-tolerant Payments service on NestJS which catered different methods like Google Pay, Apple Pay, and Credit Cards",
-          "Actively participate in System Design discussions and research.",
-          "Ensured tight cooperation with other engineers through active listening, systematic communication, and leadership skills.",
+          "Created a Payments service that was made scalable by using AWS ECS and an Application Load Balancer, enabling automatic scaling based on traffic. It remained fault-tolerant, supported Google Pay, Apple Pay, and Credit Cards, and had fallback mechanisms for transaction failures.",
+          "Onboarded three new Software Engineers by bringing them up to speed with our current services, explaining how the application functions, and familiarizing them with the practices we follow.",
         ],
       },
       {
@@ -87,11 +86,10 @@ export const TimeLineData = [
         startDate: new Date(2022, 0),
         endDate: new Date(2022, 9),
         responsibilities: [
-          "Built an internal tool from scratch using NestJS, MySQL, and GraphQL which improved the productivity and response time of our team by up to 50%",
-          "Setup an IaC (Infrastructure as Code) template with AWS CDK which was used throughout all the back-end services.",
-          "Create and update multiple models for AWS AppSync which acted as GraphQL client for our AWS DynamoDB",
-          "Refactored and migrated multiple services from JavaScript to TypeScript.",
-          "Worked on Frontend tasks involving NextJS along with writing Unit and End-to-end test cases for it.",
+          "Built an internal tool from scratch which helped the team in managing the questions, solve them and send them back to the user. This service was built on NestJS, MySQL, and GraphQL and improved the productivity and response time of our team by up to 50%",
+          "Setup an IaC (Infrastructure as Code) template with AWS CDK which was adapted throughout all the back-end services. This template had features like creating a service on AWS ECS, attaching it to a load balancer, setup a DynamoDB table for the service, without any manual effort.",
+          "Led the efforts in modernizing legacy codebase with migration from JavaScript to TypeScript.",
+          "Worked on Frontend tasks involving NextJS. Achieved test coverage of 90% for the projects unit tests by utilizing Jest and additionally created end-to-end test cases using Cypress",
         ],
       },
     ],
@@ -104,9 +102,8 @@ export const TimeLineData = [
         startDate: new Date(2021, 6),
         endDate: new Date(2021, 11),
         responsibilities: [
-          "Develop a web-application from scratch to analyse stocks for the US stock market.",
-          "Review Pull Requests of fellow engineers and update production accordingly.",
-          "Create a separate stack for our testing environment.",
+          "Designed and developed a web application from scratch to analyze stocks for the US stock market.",
+          "Deployed backend services following the server-less architecture on AWS Lambda functions connected with AWS API Gateway",
         ],
       },
       {
@@ -118,7 +115,7 @@ export const TimeLineData = [
           "Maintained blogs for multiple projects powered by Gatsby framework.",
           "Created various API routes and consumed them in our React components.",
           "Wrote Cron Jobs and used GitHub Actions to automate our workflows.",
-          "Wrote multiple test cases for our application's frontend and backend. Increased the backend coverage for our Credit Card API to 89%",
+          "Wrote multiple test cases for our application's frontend and backend. Increased the backend coverage for our Credit Card API from 21% to to 89%",
         ],
       },
     ],
@@ -131,8 +128,7 @@ export const TimeLineData = [
         startDate: new Date(2020, 0),
         endDate: new Date(2020, 2),
         responsibilities: [
-          "Generated ReactJS Components including a Data Grid which helped visualize a large amount of data. The Data Grid was tested on a data set of 5000 rows and brought down the load-time significantly which was taken by the previously built Table.",
-          "Studied the working of ASP.Net Core applications.",
+          "Created ReactJS Components including a Data Grid which helped visualize a large amount of data. The Data Grid was tested on a data set of 5000 rows and brought down the load-time significantly which was taken by the previously built Table.",
         ],
       },
     ],
