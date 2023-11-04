@@ -71,15 +71,28 @@ export const projects = [
 
 export const TimeLineData = [
   {
+    company: "Apollo Group",
+    roles: [
+      {
+        position: "Software Engineer - 1",
+        startDate: new Date(2023, 7),
+        responsibilities: [
+          "Setup infrastructure using services like AWS RDS, AWS Lambda, AWS ECS and Application Load Balancer using Pulumi.",
+          "Implemented social network graphs on Postgres SQL with nodes and edges and wrote traversal logic for the complete graph to find 1st and 2nd degree connections.",
+        ],
+      },
+    ],
+  },
+  {
     company: "Maqsad",
     roles: [
       {
         position: "Senior Software Engineer",
         startDate: new Date(2022, 10),
+        endDate: new Date(2023, 7),
         responsibilities: [
-          "Build a highly scalable and fault-tolerant Payments service on NestJS which catered different methods like Google Pay, Apple Pay, and Credit Cards",
-          "Actively participate in System Design discussions and research.",
-          "Ensured tight cooperation with other engineers through active listening, systematic communication, and leadership skills.",
+          "Designed a Payments service that was made scalable using AWS ECS and an Application Load Balancer, enabling automatic scaling based on traffic. It remained fault-tolerant, supported Google Pay, Apple Pay, and Credit Cards, and had fallback mechanisms for transaction failures",
+          "Mentored three new Software Engineers by bringing them up to speed with the current services, explaining how the application functions, and familiarizing them with our practices of Mob programming and TDD (Test Driven Development)",
         ],
       },
       {
